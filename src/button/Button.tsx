@@ -32,11 +32,11 @@ const Button = (props: IButtonProps) => {
           }
 
           .btn-primary {
-            @apply text-white bg-primary-500;
+            @apply text-white bg-primary-500; /* Usa a cor de fundo personalizada */
           }
 
           .btn-primary:hover {
-            @apply bg-primary-600;
+            @apply bg-primary-600; /* Usa a cor de hover personalizada */
           }
         `}
       </style>

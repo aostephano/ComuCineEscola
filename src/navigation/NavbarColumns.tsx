@@ -6,7 +6,7 @@ type INavbarProps = {
   children: ReactNode;
 };
 
-const NavbarTwoColumns = (props: INavbarProps) => (
+const NavbarColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div>
       <Link href="/">{props.logo}</Link>
@@ -17,7 +17,6 @@ const NavbarTwoColumns = (props: INavbarProps) => (
         {props.children}
       </ul>
     </nav>
-
     <style jsx>
       {`
         .navbar :global(li:not(:first-child)) {
@@ -32,4 +31,4 @@ const NavbarTwoColumns = (props: INavbarProps) => (
   </div>
 );
 
-export { NavbarTwoColumns };
+export { NavbarColumns };

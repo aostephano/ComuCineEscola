@@ -3,26 +3,26 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Catálogo"
+    description="Este catálogo inclui a curadoria de 8 anos de Cinema&Educação em suas distintas propostas."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="Dona Sônia pediu uma arma para seu vizinho Alcides (2011)"
+      description="Um filme que explora as complexidades das relações humanas em um contexto de tensão e desespero. Com uma narrativa intensa e envolvente, o curta retrata o pedido de Sônia a seu vizinho Alcides por uma arma, desencadeando uma série de eventos inesperados."
+      image="/assets/images/dona-sonia-pediu-uma-arma.webp"
+      imageAlt="Cena do filme Ona Sônia pediu uma arma para seu vizinho Alcides"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="Cadarços (2016)"
+      description="Filme selecionado para a II Mostra Kino Campinas e VI Mostra Estudantil de Cinema (2016) na categoria Kino Kino Minuto Lumière. Naquele dia Bruno aprendeu a amarrar seus cadarços..."
+      image="/assets/images/cadarcos.png"
+      imageAlt="Cena do filme Cadarços"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
+      title="Um pedreiro (1960)"
+      description="Filme antigo da cidade de Campinas, realizado por Dayz Peixoto Fonseca"
+      image="/assets/images/um_pedreiro.png"
       imageAlt="Third feature alt text"
     />
   </Section>

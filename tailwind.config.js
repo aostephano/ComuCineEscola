@@ -16,15 +16,15 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: '#E6F6FE',
-          200: '#C0EAFC',
-          300: '#9ADDFB',
-          400: '#4FC3F7',
-          500: '#03A9F4',
-          600: '#0398DC',
-          700: '#026592',
-          800: '#014C6E',
-          900: '#013349',
+          100: '#F3EDE7', // Tons suaves de areia
+          200: '#E1D2BC', // Bege claro
+          300: '#C6A87B', // Tons de caramelo
+          400: '#A8824E', // Marrom claro
+          500: '#8F6835', // Marrom terroso
+          600: '#755229', // Tons mais escuros de marrom
+          700: '#5B3E1F', // Marrom amadeirado
+          800: '#3E2815', // Tons profundos de terra
+          900: '#26190D', // Marrom quase preto
         },
         gray: {
           100: '#f7fafc',
@@ -38,6 +38,7 @@ module.exports = {
           900: '#1a202c',
         },
       },
+      blackTextColor: '#000000',
       lineHeight: {
         hero: '4.5rem',
       },
